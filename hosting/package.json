@@ -1,0 +1,48 @@
+{
+  "name": "@weboop/hosting",
+  "version": "0.0.1",
+  "private": true,
+  "description": "weboop frontend website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KanapongAiamtip/weboop.git",
+    "directory": "hosting"
+  },
+  "author": "KanapongAiamtip",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node egg.js && vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "fix": "vue-cli-service lint --fix",
+    "clean": "npx rimraf dist && npx rimraf node_modules"
+  },
+  "dependencies": {
+    "@fina/common": "^0.0.1",
+    "@mdi/font": "^5.9.55",
+    "axios": "^0.21.1",
+    "buefy": "^0.9.8",
+    "d3": "^7.0.0",
+    "debounce": "^1.2.1",
+    "katex": "^0.13.11",
+    "tslib": "^2.3.0",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-katex": "^0.5.0",
+    "vue-meta": "^2.4.0",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.0.0",
+    "@types/debounce": "^1.2.0",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-typescript": "^4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "sass": "^1.35.2",
+    "sass-loader": "^10.1.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
