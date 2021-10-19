@@ -1,0 +1,5 @@
+node_modules/
+dist/
+lib/
+hosting/src/globals.scss
+hosting/src/variables.scss
