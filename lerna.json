@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "common",
+    "functions",
+    "hosting"
+  ],
+  "npmClient": "npm",
+  "version": "0.0.1",
+  "useWorkspaces": true
+}
