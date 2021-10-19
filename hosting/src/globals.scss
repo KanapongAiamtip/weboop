@@ -1,0 +1,145 @@
+@import '~bulma/sass/utilities/_all';
+@import './variables.scss';
+
+$max-width-widescreen: 1900px;
+
+$colors: mergeColorMaps(
+  (
+    'white': (
+      $white,
+      $black,
+    ),
+    'black': (
+      $black,
+      $white,
+    ),
+    'light': (
+      $light,
+      $light-invert,
+    ),
+    'dark': (
+      $dark,
+      $dark-invert,
+    ),
+    'primary': (
+      $primary,
+      $primary-invert,
+      $primary-light,
+      $primary-dark,
+    ),
+    'link': (
+      $link,
+      $link-invert,
+      $link-light,
+      $link-dark,
+    ),
+    'info': (
+      $info,
+      $info-invert,
+      $info-light,
+      $info-dark,
+    ),
+    'success': (
+      $success,
+      $success-invert,
+      $success-light,
+      $success-dark,
+    ),
+    'warning': (
+      $warning,
+      $warning-invert,
+      $warning-light,
+      $warning-dark,
+    ),
+    'danger': (
+      $danger,
+      $danger-invert,
+      $danger-light,
+      $danger-dark,
+    ),
+    'purple': (
+      $purple,
+      $white
+    ),
+    'sailor-blue': (
+      $sailor-blue,
+      $white
+    ),
+    'light-blue': (
+      $light-blue,
+      $white
+    ),
+    'sailor-orange': (
+      $sailor-orange,
+      $white
+    ), 
+    'sailor-pink': (
+      $sailor-pink,
+      $white
+    ),
+    'mint': (
+      $mint,
+      black
+    ),
+    'light-mint': (
+      $light-mint,
+      $white
+    ),
+    'light-pink': (
+      $light-pink,
+      $white
+    ),
+    'bright-red': (
+      $bright-red,
+      $white
+    ),
+    'pale-yellow': (
+      $pale-yellow,
+      $white
+    ),
+    'pale-green': (
+      $pale-green,
+      $white
+    )
+  ),
+  $custom-colors
+);
+
+.is-indented {
+  text-indent: 5%;
+}
+
+.box-overflow {
+  overflow-x: auto;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+body::-webkit-scrollbar, .docs-sidebar::-webkit-scrollbar, .box-overflow::-webkit-scrollbar {
+  background-color: $white;
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb, .docs-sidebar::-webkit-scrollbar-thumb, .box-overflow::-webkit-scrollbar-thumb {
+  background-color: $sailor-blue;
+}
+
+body::-webkit-scrollbar-track, .docs-sidebar::-webkit-scrollbar-track, .box-overflow::-webkit-scrollbar-track {
+  background-color: rgba(220, 220, 220, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: $max-width-widescreen) {
+  .answer-table {
+    overflow-x: auto !important;
+    max-width: 1000px !important;
+  }
+}
+
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
