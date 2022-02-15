@@ -22,14 +22,10 @@
   "author": "KanapongAiamtip",
   "license": "MIT",
   "workspaces": [
-    "common",
-    "functions",
     "hosting"
   ],
   "scripts": {
     "serve": "cd hosting && npm run serve",
-    "serve:common": "cd common && npm run watch:ts",
-    "serve:functions": "cd functions && npm run watch",
     "watch": "lerna run watch:ts",
     "sweep": "lerna run clean && npm i",
     "rebuild": "lerna run rebuild",

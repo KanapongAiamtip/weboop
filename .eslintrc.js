@@ -43,8 +43,6 @@ module.exports = {
         ecmaVersion: 2020,
         tsconfigRootDir: __dirname,
         project: [
-          './common/tsconfig.json',
-          './functions/tsconfig.json',
           './hosting/tsconfig.json'
         ]
       },
