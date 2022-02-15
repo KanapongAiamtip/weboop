@@ -1,7 +1,5 @@
 {
   "packages": [
-    "common",
-    "functions",
     "hosting"
   ],
   "npmClient": "npm",

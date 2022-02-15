@@ -33,12 +33,7 @@
     "noErrorTruncation": true,
     "pretty": true,
     "resolveJsonModule": true,
-    "useDefineForClassFields": true,
-    "paths": {
-      "@fina/common/*": [
-        "common/dist/*"
-      ]
-    }
+    "useDefineForClassFields": true
   },
   "exclude": [
     "node_modules",
