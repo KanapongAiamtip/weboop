@@ -8,7 +8,7 @@
       <nav class="breadcrumb is-centered has-bullet-separator" aria-label="breadcrumb">
         <ul>
           <li>
-            <a href="https://github.com/lucpotage/vue-katex">Vue Katex</a>
+            <a href="https://github.com/vuejs/vue">Vue</a>
           </li>
           <li>
             <a href="https://www.typescriptlang.org/">Typescript</a>

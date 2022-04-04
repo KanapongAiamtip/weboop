@@ -19,10 +19,9 @@
           Who am I ❤❤❤
         </h1><br>
         <p class="subtitle">
-          My name is Kunapong Aiamtip Pen Name Louis Nick Name ppromxx
+          My name is Kunapong Aiamtip Nick Name Soda
         </p>
         <img src="https://avatars.githubusercontent.com/u/75485361?v=4" alt="pic" width="350" height="400">
-        <!--img src="@/assets/jame.jpg" alt="OOP" class="pic-people"-->
       </div>
     </div>
   </section>
@@ -71,4 +70,9 @@
   <breadcrumb-footer />
 </div>
 </template>
+<style>
+img {
+  border-radius: 100%;
+}
+</style>
 <script lang="ts" src="./about.ts"></script>
